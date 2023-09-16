@@ -18,10 +18,10 @@ export const loadGeneral = () => (dispatch) => {
                     dispatch({
                         type: Types.LOAD_GENERAL,
                         payload: {
-                            general: getData.general,
+                            general: JSON.parse(getData.general),
                         },
                     });
-                    window.localStorage.setItem("_general", general);
+                    window.localStorage.setItem("_general", JSON.parse(general));
                 }
             }
         })

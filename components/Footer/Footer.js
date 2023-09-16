@@ -193,7 +193,7 @@ const Footer = (props) => {
                                                 rel="noreferrer"
                                             >
                                                 <img
-                                                    src={Facebook}
+                                                    src={'assets/images/facebook.png'}
                                                     alt="Facebook"
                                                     width={"25"}
                                                     height={"25"}
@@ -210,7 +210,7 @@ const Footer = (props) => {
                                                 rel="noreferrer"
                                             >
                                                 <img
-                                                    src={instagram}
+                                                    src={'assets/images/instagram.png'}
                                                     alt="instagram"
                                                     width={"25"}
                                                     height={"25"}
@@ -226,7 +226,7 @@ const Footer = (props) => {
                                                 rel="noreferrer"
                                             >
                                                 <img
-                                                    src={youtube}
+                                                    src={'assets/images/youtube.png'}
                                                     alt="youtube"
                                                     width={"25"}
                                                     height={"25"}
@@ -243,7 +243,7 @@ const Footer = (props) => {
                                                 rel="noreferrer"
                                             >
                                                 <img
-                                                    src={likedin}
+                                                    src={'assets/images/likedin.png'}
                                                     alt="linkedin"
                                                     width={"25"}
                                                     height={"25"}

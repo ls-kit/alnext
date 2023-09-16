@@ -1,6 +1,11 @@
-import {loadAsset} from "../../../utils/Helper";
+import React from "react";
 import parser from "html-react-parser";
+import { loadAsset } from "../../../utils/Helper";
 
+const $ = require('jquery');
+if (typeof window !== 'undefined') {
+    window.$ = window.jQuery = require('jquery');
+}
 const BannerItem = ({banner}) => {
     const content = `${banner?.post_content}`;
     return (
